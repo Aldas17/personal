@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style.css">
+        <style>
+            .container {
+                text-align: center;
+            }
+
+            .project {
+                margin-bottom: 20px;
+                border: 1px solid #ccc;
+                padding: 20px;
+            }
+
+            .project img {
+                max-width: 50px;
+                max-height: 50px;
+                padding: 2px;
+                border: 2px solid black;
+                border-radius: 10px;
+                background-color: white;
+            }
+        </style>
+        <title>Document</title>
+    </head>
+    <body style="padding: 0; margin: 0">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#projects">projects</a></li>
+                    <li><a href="#contact">contacts</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section id="about">
+            <img src="./images/profile.jpg" alt="Profile Photo" style="width: 100px; height: 130px; object-fit: cover; padding: 5px;">
+            <h1>Austin Das</h1>
+            <h4 style="font-family: Georgia, 'Times New Roman', Times, serif;; color: black;">ISU Student & Mobile Developer</h4>
+            <p style="font-family: Georgia, 'Times New Roman', Times, serif;">I am currently a student at Iowa State University. Currently I work for a company called Selegic to help develope apps. I have not done many <em>projects</em> but I have learned a few languages. I will list the languages I do know and briefly describe what I did with them.</p>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project">
+                <img src="./images/skript.png" alt="Project 1">
+                <h3>Skript</h3>
+                <p>Skript is a minecraft plugin developed as a scripting language to give developers the ability to access the api programatically compared to command blocks or data packs. Some things I have made using Skript is a sword that summon lightning when struck against a target. Another thing I made was a scoreboard which kept track of kills and the players. I also played around with particles to make some items like the sword more flashy when used.</p>
+            </div>
+
+            <div class="project">
+                <img src="./images/java.png" alt="Project 1">
+                <h3>Java</h3>
+                <p>Java is something I learned by myself, but since I took Com S 227 (Object Oriented Programming) the language really stuck with me and is now my preferred language. The first project I probably attempted by my self was snake, although I am pretty sure I did not follow the tutorial I was doing properly and it did not compile. Although since Com S 228 (Intro to Data Structures) I remember making sorting algorithms and racing them to compile fastest. Another project was to develope a sort of civilization simulation game.</p>
+            </div>
+
+            <div class="project">
+                <img src="./images/html.png" alt="Project 1">
+                <h3>Html</h3>
+                <p>Html is something I admittedly do not have a lot of experience with but I did spend some time learning it prior to Com S 319 (Construction of UI). I was following a tutorial online, although most of it is hazy. It did teach me a lot of the process though and some things you can do. I am pretty sure I was able to make a sort of filter on photos and give it a sort of green screen effect though I am pretty sure that was more Java Script than Html or Css. Another thing I have made was a website with access to an api library of cats using <a href="https://thecatapi.com">the cat api</a> to sort them by weight and breed.</p>
+            </div>
+        </section>
+
+        <footer>
+            <div class="container">
+                <h2 style="padding: 0; margin: 0;">Contact Me</h2>
+                <p style="padding: 0; margin: 0;">You can reach me at aldas@iastate.edu</p>
+                <p style="padding: 0; margin: 0;">&copy; 2025 Austin Das</p>
+            </div>
+        </footer>
+    </body>
+</html>
